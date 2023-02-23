@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada:wght@300&family=Shantell+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./assets/fondo.avif);
+}
+
+main{
+    font-size: 1rem;
+    font-family: 'Labrada', serif;
+    margin: 20px;
+    text-align: center;
+
+}
+
+header{
+    margin: 20px;
+    font-size: 2rem;
+    font-family: 'Shantell Sans', cursive;
+    text-align: center;
+}
+
+.imagen-cumpleañero{
+    width:20rem;
+    border-radius: 20px;
+    border-color: rgb(0, 0, 0);
+    border-style: double;
+    margin: 1rem;
+}
+
+.ubicacion{
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.descripcion-lugar{
+    margin: 10px;
+    font-size: 20px;
+}
+.imagen-lugar{
+    border-radius: 20px;
+    margin: 10px;
+    width: 50rem;
+}
+
+.confirmacion{
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+.boton{
+
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    background-color:rgba(7, 56, 43, 0.673);
+    border:none;
+    color: beige;
+}
+.boton:hover{
+    background-color:rgba(7, 56, 43, 0.871);
+    height: 33px;
+    width: 210px;
+}
+.marca{
+    text-align: center;
+    margin: 20px;
+    color: rgba(0, 0, 0, 0.63);
+}
+
+@media only screen and (max-width:576px){
+    .imagen-cumpleañero{
+        width:20rem;
+    }
+    
+    .ubicacion{
+        width: 20rem;
+        text-align: center;
+    }
+    .imagen-lugar{
+        width: 20rem;
+    }
+    
+}
